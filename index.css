@@ -1,0 +1,757 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+   width: 100vw;
+   height: 100vh;
+
+}
+
+.p1{
+
+    width: 100%;
+    height: 220%;
+    /* background-color: rgb(231, 204, 229); */
+    
+}
+
+
+.a-h{
+
+    text-decoration: none;
+    color: black;
+}
+
+
+.hide-cont{
+
+
+    display: none;
+}
+
+.icon:hover .hide-cont{
+
+
+    display: block;
+}   
+
+.v-drop{
+
+    padding: 10px;
+    display: flex;
+}
+
+.home-i{
+
+    color: black;
+}
+
+.about-i{
+
+    color:  black;
+}
+
+.gallary-i{
+
+    color:  black;
+
+
+}
+
+.contact-i{
+
+    color:  black;
+
+
+}
+
+.left-v-nav{
+
+text-decoration: none;
+
+
+}
+.about{
+
+
+    width: 100%;
+    height: 200%;
+
+}
+
+.gallary{
+
+    width: 100%;
+    height: 450%;
+
+
+}
+
+.art{
+
+padding: 20px;
+
+}
+
+.art:hover{
+
+
+}
+
+
+.contact{
+
+width: 100%;
+height: 200%;
+/* background-color: rgb(169, 199, 199); */
+}
+
+
+.hpf-contact{
+
+background-color: rgba(211, 179, 206, 0.274);
+
+}
+
+form{
+
+    text-align: left;
+}
+
+
+.c-form{
+
+    width: 80%;
+    height: 30px;
+    /* border: 1px solid black; */
+}
+.c-msg-form{
+   
+    width: 80%;
+    height: 60px;
+
+}
+
+
+
+.h-bar{
+
+  width: 100%;
+  background-color: rgb(88, 39, 80);
+  color: aliceblue;
+ 
+  display: flex;
+
+}
+
+.icon{
+
+padding: 15px;
+font-size: 30px;
+color: aliceblue;
+
+}
+
+.nav-text{
+
+    /* border: 1px solid black; */
+    width: 80%;
+    height: 20%;
+
+font-size: 20px;
+padding: 15px;
+
+}
+
+.nav-btn{
+
+padding: 10px;
+
+margin-left: 50px;
+
+/* border: 1px solid black; */
+
+width: 50%;
+
+
+}
+
+
+button{
+
+    padding: 10px;
+   
+}
+
+
+.navigation{
+
+    width: 100%;
+    /* background-color: rgb(56, 54, 54); */
+    padding: 5px;
+    text-align: center;
+
+}
+
+.my-nav{
+
+    padding: 10px;
+    /* position: fixed; */
+
+    margin-bottom: 20px;
+
+
+
+}
+
+.nav-bar{
+
+list-style: none;
+/* margin-bottom: 20px; */
+
+/* position: fixed; */
+
+}
+
+.nav-item{
+
+border: 1px solid rgb(65, 75, 75);
+background-color: rgb(248, 244, 248);
+margin-bottom: 20px;
+padding: 10px;
+
+}
+
+.nav-item:hover{
+
+    background-color: rgba(216, 131, 202, 0.486);
+
+
+    
+}
+
+.nav-link{
+
+color: rgb(7, 7, 7);
+
+text-decoration: none;
+
+}
+
+.body-sec{
+
+width: 100%;
+height: 150%;
+
+
+background-image: url("image/bg1.avif");
+background-repeat: no-repeat;
+
+
+}
+
+.bg-img{
+
+    /* border: 1px solid black; */
+    width: 100%;
+}
+
+.para1{
+
+padding: 30px;
+
+ }
+
+.body-btn{
+
+width: 100%;
+/* border: 1px solid black; */
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px; 
+
+}
+
+.viewbtn:hover{
+
+
+background-color: rgba(226, 127, 213, 0.582);
+}
+
+.photo1{
+
+padding: 10px;
+
+}
+
+.b-view-btn{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.photo3{
+
+padding: 5px;
+
+}
+
+
+
+
+.f-end{
+
+width: 100%;
+
+background-color: rgb(202, 111, 187);
+
+text-align: center;
+
+}
+
+
+
+@media(min-width: 768px) {
+
+    .p1{
+
+    width: 100%;
+    height: 200%;
+
+    }
+
+    .icon{
+
+        font-size: 40px;
+
+
+    }
+
+     .nav-text{
+
+
+        /* border: 1px solid black; */
+        width: 100%;
+        font-size: 40px;
+        margin-left: 20px;
+     }
+
+     .h-signup{
+
+       width: 100%;
+       height: 100%;
+       font-size: 20px;
+
+     }
+
+
+     .nav-link{
+
+        font-size: 25px;
+     }
+
+     .body-sec{
+
+    width: 100%;
+    /* padding: 20px; */
+    background-size: cover;
+   
+
+     }
+
+     .bg-img{
+
+      width: 100%;
+      height: 15%;
+      border: 1px solid black;
+     }
+
+     .para1{
+
+        font-size: 40px;
+
+
+     }
+
+     .bg-text{
+      
+        width: 100%;
+        height: 50%;
+      font-size: 40px;
+      /* border: 1px solid black; */
+
+     }
+
+     .art-rei{
+
+        font-size: 60px;
+
+     }
+
+     .mex{
+
+        font-size: 20px;
+     }
+
+
+      .body-btn{
+
+
+       width: 100%;
+       height: 30%;
+       /* border: 1px solid black; */
+
+
+     }
+
+     .viewbtn{
+
+        width: 40px;
+        height: 60px;
+        color: black;
+        font-size: 20px;
+
+     }
+
+     .heading{
+
+        width: 100%;
+        /* border: 1px solid black; */
+
+     }
+
+     .fea{
+      
+        width: 100%;
+
+        height: 30%;
+
+        /* border: 1px solid black; */
+
+        /* display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center; */
+
+        margin-bottom: 20px;
+
+        
+     }
+     .f-work{
+
+       width: 100%;
+       height: 50%;
+        font-size: 30px;
+        /* border: 1px solid black;  */
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        align-items: center;
+
+     }  
+
+     .fea-para{
+
+     font-size: 20px;
+
+     }
+
+
+     .temple{
+
+        padding: 20px;
+     }
+
+     .photo1{
+
+        transition: 1s;
+
+     }
+
+     .temple{
+        
+        width: 80%;
+        margin-left: 70px;
+
+
+     }
+
+     
+     .up-tempo{
+
+      font-size: 25px;
+ 
+     }
+
+     .by-amber{
+
+        font-size: 20px;
+
+
+     }
+
+     .dog{
+
+        width: 80%;
+        margin-left: 70px;
+        transition-duration: 1s;
+
+     }  
+    
+
+     .paint{
+
+
+        width: 80%;
+        margin-left: 70px;
+        transition-duration: 1s;
+        margin-top: 30px;
+
+
+     }
+     .b-view-btn{
+/* 
+       width: 100%;
+      height: 60%;  */
+      /* border: 1px solid black; */
+
+     }
+
+     .view-gallary{
+       
+
+    padding: 25px;
+    color: aliceblue;
+    font-size: 20px;
+
+
+     }
+
+     .f-heading{
+
+        font-size: 30px;
+
+
+     }
+
+     .f{
+
+
+        font-size: 25px;
+     }
+
+
+     .about{
+
+        width: 100%;
+        height: 200%;
+
+
+     }
+
+     .a-girl{
+
+        height: 15%;
+
+
+     }
+
+     .my-work{
+
+
+      padding: 25px; font-size: 23px;
+     }
+     .amber{
+
+
+        font-size: 40px;
+
+     }
+     .learn{
+
+        font-size: 30px;
+
+
+     }
+
+     .big-para{
+
+        font-size: 20px;
+     }
+
+     .two-btn{
+
+
+         /* border: 1px solid black; */
+         padding: 50px;
+         margin: 5px;
+
+     }
+
+     .gallary{
+
+        width: 100%;
+        height: 500%;
+     }
+
+     .art-g{
+
+         font-size: 40px;
+
+     }
+
+     .g-para{
+
+        font-size: 20px;
+     }
+
+     .art{
+
+
+        padding: 60px;
+     }
+
+     .for-cont{
+
+        /* width: 100%;
+        height: 10%;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        font-size: 30px; */
+
+
+     }
+
+     .c-para{
+
+font-size: 25px;
+
+     }
+
+     .form{
+
+
+        font-size: 25px;
+        padding: 10px;
+
+     }
+
+     .c-form{
+
+
+        width: 90%;
+        height: 3%;
+
+     }
+
+     .c-msg-form{
+
+
+        width: 90%;
+        height: 7%;
+
+     }
+
+     .sub{
+
+        padding: 40px;
+        
+
+        border-radius: 20px;
+        font-size: 30px;
+
+
+     }
+
+     
+
+
+}
+
+
+@media (min-width: 1024px){
+
+   .navigation{
+
+
+      background-image: url("image/paint5.avif");
+      width: 100%;
+      background-repeat: no-repeat;
+      /* opacity: 0.6; */
+   }
+
+
+   .my-nav{
+
+      /* border: 1px solid black; */
+
+      display: flex;
+      flex-direction: row;
+
+      
+   }
+
+   .nav-bar{
+
+
+
+   }
+
+   .nav-item{
+
+
+
+
+   }
+
+   .a-girl{
+
+width: 100%;
+height: 30%;
+
+   }
+   .photo1{
+
+
+      display: flex;
+   }
+
+   .temple{
+
+
+
+   }
+
+   .up-tempo{
+
+      
+   }
+
+   .by-amber{
+
+
+
+   }
+
+}
+
+
+
+
